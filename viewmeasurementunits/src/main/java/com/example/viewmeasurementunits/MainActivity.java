@@ -29,11 +29,12 @@ public class MainActivity extends AppCompatActivity {
 
     public void clicked(View view){
 
-        if(view.getId() == R.id.btnconvertToDp){
-
+        if(view.getId() == R.id.btnconvertToDp)
+        {
+            setTextInfo(""+convertToDp(getEditValue(),240));
         }else
         {
-
+            setTextInfo(""+convertToPx(getEditValue(),240));
         }
     }
 
@@ -64,6 +65,4 @@ public class MainActivity extends AppCompatActivity {
         TextView text = (TextView)findViewById(R.id.text);
         text.setText(info);
     }
-
-
 }
