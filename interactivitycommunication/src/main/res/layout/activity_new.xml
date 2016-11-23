@@ -32,4 +32,29 @@
         android:layout_alignParentRight="true"
         android:layout_marginRight="50dp"/>
 
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/newedit"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:hint="Mobile"
+            android:textColorHint="#ffffff"
+            android:layout_weight="0.7"/>
+
+        <Button
+            android:id="@+id/btnback"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_weight="0.3"/>
+
+    </LinearLayout>
+
 </RelativeLayout>
