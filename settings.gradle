@@ -1,1 +1,1 @@
-include ':app', ':startmodule', ':viewmeasurementunits', ':alignment'
+include ':app', ':startmodule', ':viewmeasurementunits', ':alignment', ':relativelayout', ':interactivitycommunication', ':compundview', ':customview'
