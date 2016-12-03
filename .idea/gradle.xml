@@ -8,13 +8,26 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activitylifecycle" />
             <option value="$PROJECT_DIR$/alignment" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/bouncingball" />
             <option value="$PROJECT_DIR$/compundview" />
+            <option value="$PROJECT_DIR$/customlist" />
             <option value="$PROJECT_DIR$/customview" />
+            <option value="$PROJECT_DIR$/fragment" />
+            <option value="$PROJECT_DIR$/gridviewcalculator" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
+            <option value="$PROJECT_DIR$/languagehandling" />
+            <option value="$PROJECT_DIR$/listview" />
+            <option value="$PROJECT_DIR$/login_fragment" />
+            <option value="$PROJECT_DIR$/orientationchanges" />
+            <option value="$PROJECT_DIR$/ownorientationhandling" />
             <option value="$PROJECT_DIR$/relativelayout" />
+            <option value="$PROJECT_DIR$/retainingstates" />
+            <option value="$PROJECT_DIR$/simplevalueresources" />
             <option value="$PROJECT_DIR$/startmodule" />
+            <option value="$PROJECT_DIR$/viewanimations" />
             <option value="$PROJECT_DIR$/viewmeasurementunits" />
           </set>
         </option>

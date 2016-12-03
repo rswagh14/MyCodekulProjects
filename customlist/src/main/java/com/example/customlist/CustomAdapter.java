@@ -8,6 +8,7 @@ import android.widget.BaseAdapter;
 import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import java.util.ArrayList;
 
@@ -43,6 +44,7 @@ public class CustomAdapter extends BaseAdapter{
         return countries.get(position).getId();
     }
 
+
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
 
@@ -50,6 +52,14 @@ public class CustomAdapter extends BaseAdapter{
 
         if(convertView == null )  view = inflater.inflate(R.layout.custom_view,null,false);
         else view = convertView;
+
+        view.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Toast.makeText(context, "Hi "+((TextView)v.findViewById(R.id.textview)).getText().toString(), Toast.LENGTH_SHORT).show();
+            }
+        });
 
         ((ImageView)view.findViewById(R.id.imageview))
                 .setImageResource(countries.get(position).getFlag());

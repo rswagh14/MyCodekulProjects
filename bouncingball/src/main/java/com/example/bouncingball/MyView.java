@@ -43,9 +43,9 @@ public class MyView extends TextView {
 
             while(true)
             {
-                if(x>= getWidth()) dx= -5;
+                if(x>= getWidth()) dx= -5; // if(x>=params[0])
                 if(x<= 0) dx = 5;
-                if(y>= getHeight()) dy= -5;
+                if(y>= getHeight()) dy= -5;  // if(y>=params[1])
                 if(y<= 0) dy = 5;
 
                 x +=dx;
