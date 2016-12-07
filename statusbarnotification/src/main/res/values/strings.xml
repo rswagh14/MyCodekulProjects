@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StatusBarNotification</string>
+    <string name="btnOkay">Okay</string>
+    <string name="info">Notificatoin Information dbdfjbsdjbijdkjdkjsdsj</string>
+    <string name="title">Notification</string>
+    <string name="text">text</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+</resources>
