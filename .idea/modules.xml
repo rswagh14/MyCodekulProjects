@@ -10,6 +10,7 @@
       <module fileurl="file://$PROJECT_DIR$/compundview/compundview.iml" filepath="$PROJECT_DIR$/compundview/compundview.iml" />
       <module fileurl="file://$PROJECT_DIR$/customlist/customlist.iml" filepath="$PROJECT_DIR$/customlist/customlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragment/fragment.iml" filepath="$PROJECT_DIR$/fragment/fragment.iml" />
       <module fileurl="file://$PROJECT_DIR$/gridviewcalculator/gridviewcalculator.iml" filepath="$PROJECT_DIR$/gridviewcalculator/gridviewcalculator.iml" />
       <module fileurl="file://$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" filepath="$PROJECT_DIR$/interactivitycommunication/interactivitycommunication.iml" />
@@ -22,6 +23,8 @@
       <module fileurl="file://$PROJECT_DIR$/retainingstates/retainingstates.iml" filepath="$PROJECT_DIR$/retainingstates/retainingstates.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" filepath="$PROJECT_DIR$/simplevalueresources/simplevalueresources.iml" />
       <module fileurl="file://$PROJECT_DIR$/startmodule/startmodule.iml" filepath="$PROJECT_DIR$/startmodule/startmodule.iml" />
+      <module fileurl="file://$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" filepath="$PROJECT_DIR$/statusbarnotification/statusbarnotification.iml" />
+      <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimations/viewanimations.iml" filepath="$PROJECT_DIR$/viewanimations/viewanimations.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmeasurementunits/viewmeasurementunits.iml" filepath="$PROJECT_DIR$/viewmeasurementunits/viewmeasurementunits.iml" />
     </modules>
