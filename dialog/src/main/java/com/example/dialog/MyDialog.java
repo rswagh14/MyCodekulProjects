@@ -24,7 +24,7 @@ public class MyDialog extends DialogFragment {
 
     public static final String DIALOG_ALERT = "Alert";
     public static final String DIALOG_TIME = "Time" ;
-    public static final String DIALOG_DATE = "Time" ;
+    public static final String DIALOG_DATE = "date" ;
     public static final String DIALOG_PROGRESS = "Progress";
     public static final String DIALOG_CUSTOM = "Custom";
 
@@ -64,18 +64,52 @@ public class MyDialog extends DialogFragment {
         return progressdialog;
     }
 
+    /* Get Date picked*/
+
+   public interface OnDatePicked{
+       void date( int day,int month, int year);
+   }
+
+    private OnDatePicked datepicked;
+
+    public void setdatepicked(OnDatePicked datepicked){
+        this.datepicked = datepicked;
+    }
+
     private Dialog showDate() {
 
         DatePickerDialog datepicker = new DatePickerDialog(getActivity(),
-                (view, year, month, dayOfMonth) -> {},2017,01,01);
+                (view, year, month, dayOfMonth) -> {
+                    if(datepicked !=null)
+                        datepicked.date(dayOfMonth,month,year);
+
+                },2017,01,01);
+
+
         return datepicker;
+    }
+
+
+    public interface OnTimePicked{
+        void time(int hr, int min);
+    }
+
+    private OnTimePicked timepicked;
+
+    public void settimepicked(OnTimePicked timepicked){
+        this.timepicked = timepicked;
     }
 
     private Dialog showTime() {
 
-        TimePickerDialog timepicker = new TimePickerDialog(getActivity(),
-                (view, hourOfDay, minute) -> {},6,8,true);
-        return timepicker;
+        TimePickerDialog timePicker =
+                new TimePickerDialog(getActivity(),(view, hourOfDay, minute) ->{
+                    if(timepicked!=null){
+                        timepicked.time(hourOfDay,minute);
+                    }
+                },6,8,true);
+
+        return timePicker;
     }
 
     private Dialog showAlert() {
