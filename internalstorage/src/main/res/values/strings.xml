@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Internal Storage</string>
+    <string name="btnSave">save</string>
+    <string name="btnDisplay">Display</string>
+</resources>
