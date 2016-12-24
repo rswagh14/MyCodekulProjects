@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/bouncingball/bouncingball.iml" filepath="$PROJECT_DIR$/bouncingball/bouncingball.iml" />
       <module fileurl="file://$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" filepath="$PROJECT_DIR$/broadcastreceivers/broadcastreceivers.iml" />
       <module fileurl="file://$PROJECT_DIR$/compundview/compundview.iml" filepath="$PROJECT_DIR$/compundview/compundview.iml" />
+      <module fileurl="file://$PROJECT_DIR$/contentprovidercontactsapp/contentprovidercontactsapp.iml" filepath="$PROJECT_DIR$/contentprovidercontactsapp/contentprovidercontactsapp.iml" />
       <module fileurl="file://$PROJECT_DIR$/customlist/customlist.iml" filepath="$PROJECT_DIR$/customlist/customlist.iml" />
       <module fileurl="file://$PROJECT_DIR$/customview/customview.iml" filepath="$PROJECT_DIR$/customview/customview.iml" />
       <module fileurl="file://$PROJECT_DIR$/dialog/dialog.iml" filepath="$PROJECT_DIR$/dialog/dialog.iml" />
@@ -32,6 +33,7 @@
       <module fileurl="file://$PROJECT_DIR$/toast/toast.iml" filepath="$PROJECT_DIR$/toast/toast.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewanimations/viewanimations.iml" filepath="$PROJECT_DIR$/viewanimations/viewanimations.iml" />
       <module fileurl="file://$PROJECT_DIR$/viewmeasurementunits/viewmeasurementunits.iml" filepath="$PROJECT_DIR$/viewmeasurementunits/viewmeasurementunits.iml" />
+      <module fileurl="file://$PROJECT_DIR$/whatsappfragments/whatsappfragments.iml" filepath="$PROJECT_DIR$/whatsappfragments/whatsappfragments.iml" />
     </modules>
   </component>
 </project>
