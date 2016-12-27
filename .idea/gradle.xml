@@ -24,6 +24,7 @@
             <option value="$PROJECT_DIR$/intentfilters" />
             <option value="$PROJECT_DIR$/interactivitycommunication" />
             <option value="$PROJECT_DIR$/internalstorage" />
+            <option value="$PROJECT_DIR$/jsonparsing" />
             <option value="$PROJECT_DIR$/languagehandling" />
             <option value="$PROJECT_DIR$/listview" />
             <option value="$PROJECT_DIR$/login_fragment" />
@@ -33,6 +34,7 @@
             <option value="$PROJECT_DIR$/retainingstates" />
             <option value="$PROJECT_DIR$/sharedpreferences" />
             <option value="$PROJECT_DIR$/simplevalueresources" />
+            <option value="$PROJECT_DIR$/sqlite" />
             <option value="$PROJECT_DIR$/startmodule" />
             <option value="$PROJECT_DIR$/statusbarnotification" />
             <option value="$PROJECT_DIR$/toast" />
